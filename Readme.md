@@ -7,7 +7,7 @@ This project demonstrates how raw data can be transformed into a clean, structur
 
 ## 🚀 Live Demo
 
-👉 [Add your Streamlit app link here]
+👉 [https://data-cleaner-app-0.streamlit.app/]
 
 ---
 
