@@ -15,11 +15,13 @@ def clean_data(df):
 
     if 'Age' in df.columns:
         df['Age'] = pd.to_numeric(df['Age'], errors='coerce')
-        df['Age'] = df['Age'].fillna(df['Age'].mean())
+        mean_age = df['Age'].mean()
+        df['Age'] = df['Age'].fillna(round(mean_age))
 
     if 'Salary' in df.columns:
         df['Salary'] = pd.to_numeric(df['Salary'], errors='coerce')
-        df['Salary'] = df['Salary'].fillna(df['Salary'].median())
+        median_salary = df['Salary'].median()
+        df['Salary'] = df['Salary'].fillna(round(median_salary))
 
     if 'Email' in df.columns:
         df['Email'] = df['Email'].fillna("noemail@example.com")
