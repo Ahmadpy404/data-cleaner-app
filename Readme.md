@@ -71,7 +71,7 @@ data-cleaner-app/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/data-cleaner-app.git
+git clone https://github.com/Ahmadpy404/data-cleaner-app.git
 cd data-cleaner-app
 
 
